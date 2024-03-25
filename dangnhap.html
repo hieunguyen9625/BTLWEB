@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐĂNG NHẬP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu {
+            display: flex;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 20px 50px 0 50px;
+            border: 1px solid rgb(148, 21, 21);
+        }
+
+        .menu li {
+            list-style-type: none;
+            margin: auto;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: rgb(247, 108, 108);
+            font-size: 20px;
+        }
+
+        .menu li:hover {
+            background-color: rgb(200, 158, 158);
+            padding: 10px;
+        }
+
+        .menu a:hover {
+            color: rgb(228, 116, 116);
+        }
+
+        .menu .sub-menu {
+            position: absolute;
+            display: none;
+            top: auto;
+            left: auto;
+        }
+
+        .menu .sub-menu li {
+            padding: 5px;
+        }
+
+        .menu li:hover .sub-menu {
+            display: block;
+            background-color: black;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+        .box input{
+            height: 25px;
+        }
+
+        header img {
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+        }
+        main p{
+            text-align: center;
+            font-size: 30px;
+        }
+        main form{
+            margin-top: 20px;
+            margin-left: 600px;
+            font-size: 25px;
+        }
+        main form input{
+            width: 250px;
+            height: 40px;
+        }
+        button{
+            margin-left: 720px;
+            background-color: aqua;
+            margin-top: 10px;
+            width: 100px;
+            height: 30px;
+        }
+        footer {
+            text-align: center;
+            background-color: rgb(189, 81, 81);
+            color: white;
+            margin-top: 240px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="menu">
+            <img src="logo.jpeg" alt="">
+            <li>
+                <a href="">BỘ SƯU TẬP</a>
+                <ul class="sub-menu">
+                    <li><a href="onepice.html">One Piece x Yame</a></li>
+                    <li><a href="Graphic.html">Graphic Tee(Tết)</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">SALE GU ĐƠN GIẢN</a>
+                <ul class="sub-menu">
+                    <li><a href="aothun.html">Áo Thun Đơn Giản SALE</a></li>
+                    <li><a href="Somi.html">Sơ Mi Đơn Giản SALE</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">SALE GU THIẾT KẾ</a>
+                <ul class="sub-menu">
+                    <li><a href="aothunoutlet.html">Áo Thun Outlet</a></li>
+                    <li><a href="aokhoa.html">Áo Polo Outlet</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">THÁNG 3 - SALE PHỤ KIỆN</a>
+                <ul class="sub-menu">
+                    <li><a href="Non.html">SALE 30% Nón</a></li>
+                    <li><a href="Balo.html">SALE 50% Balo</a></li>
+                    <li><a href="Tuideo.html">SALE 50% Túi Đeo</a></li>
+                </ul>
+            </li>
+            <img src="icontk.png" alt="">
+            <div>
+                <div class="box">
+                    <input type="text" placeholder="Search here">
+                    <a><i class="fas fa-search-location"></i></a>
+                </div>
+            </div>
+            <a href="dangnhap.html"><img src="icontkhoan.png" alt=""></a>
+            <img src="giohang.png" alt="">
+        </ul>
+    </header>
+    <main>
+        <p>Đăng ký/Đăng nhập VIP
+            bằng số điện thoại</p>
+        <form action="">
+            <label for="numbers">SĐT:</label>
+            <input type="text">
+        </form>
+        <button><a href="trangchu.html">ĐĂNG NHẬP</a></button>
+    </main>
+    <footer>
+        <img src="logo.jpeg" alt=""><br>
+        <a>Đặt hàng và thu tiền tận nơi toàn quốc</a>
+        <h3>Liên Hệ: 0988022328</h3>
+        &copy; BY Nguyễn Trung Hiếu 2024
+    </footer>
+</body>
+
+</html>
